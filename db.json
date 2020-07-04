@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "fakeuser",
+      "password": "fakepassword",
+      "role": "user"
+    },
+    {
+      "id": 2,
+      "username": "fpsfan",
+      "password": "fakepassword",
+      "role": "user"
+    },
+    {
+      "id": 3,
+      "username": "admin",
+      "password": "password",
+      "role": "admin"
+    }
+  ],
+  "games": [
+    {
+      "name": "Milos",
+      "id": 9
+    },
+    {
+      "datum": "20.05.2020",
+      "id": 10
+    },
+    {
+      "vreme": "10:20h",
+      "id": 11
+    },
+    {
+      "hala": "Hala sportova Vlade Divac",
+      "id": 12
+    }
+  ]
+}
