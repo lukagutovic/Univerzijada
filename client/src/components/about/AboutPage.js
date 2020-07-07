@@ -3,12 +3,13 @@ import React from 'react'
 import PostData from '../../JSON/data.json'
 
 
-const AboutPage = () => {
+const AboutPage = (props) => {
  
   return (
     <div className="container">
-     {PostData.map((postDetail, index)=> {
-        return <div className="cards-wrapper">
+  {PostData.map((postDetail, index)=> {
+        return <div key={PostData.id} className="cards-wrapper">
+           <a href={postDetail.link} > 
    <div className="cards">
       <div className="card-item">
         <div className="card-image">
@@ -20,10 +21,11 @@ const AboutPage = () => {
         </div>
       </div>
     </div>
+    </a>
+
      </div>
    })}
-   
-
+  
   </div>
   )
 

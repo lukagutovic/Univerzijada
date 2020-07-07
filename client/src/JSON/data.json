@@ -1,26 +1,29 @@
 [  
    {  "id": "1",
+      "link": "/kalemegdan",
     "image": "https://rs.n1info.com/Picture/253315/jpeg/shutterstock_1073098787.jpg",
       "name":"Kalemegdanski park i tvrđava",
       "description":"Kalemegdan je poznat u narodu kao “srce Beograda” i to ne bez razloga. U mnogo navrata u toku istorije reči “odbrana Beograda” odnosile su se samo na mali prostor zaštićen unutar zidova ove tvrđave koja, iako su joj temelje postavile još rimske legije, i dalje stoji..."
    },
    {  
     "id": "2",
+    "link": "/svpetka",
     "image": "https://ocdn.eu/pulscms-transforms/1/yWWk9lMaHR0cDovL29jZG4uZXUvaW1hZ2VzL3B1bHNjbXMvTkRRN01EQV8vYTJjYTc1OWI1OGVhNWM3YzZkMWNjYzcyODIzNjEyNjMuanBlZ5GTAs0CngCBAAE",
      "name":"Crkva svete Petke",
      "description":"Ova lepa stara crkva nalazi se u Donjem gradu beogradske tvrđave, u blizini poznatog “čudotvornog” izvora. Crkvu je sagradio nepoznati dobročinitelj u isto vreme kada su ostaci svete Petke premešteni u Beograd. Izgradnja je dovršena na dan svete Petke. Najpoznatija..."
    },
    {  
     "id": "3",
+    "link": "/ada",
     "image": "https://www.adaciganlija.rs/files/2017/10/ada-ciganlija-ada.jpg",
      "name":"Ada Ciganlija",
      "description":"Plaža Ada Ciganlija nalazi se na dugom rečnom ostrvu četiri kilometara od ušća Save u Dunav. Oblast je zaštićena kao nacionalno blago od 1821 što je ostala do danas. Ovo je popularna lokacija za bicikliste i ljubitelje vožnje na rolerima, zahvaljujući dugoj stazi koja..."
    },
    {  
     "id": "4",
+    "link": "/topcider",
     "image": "https://belgrade-beat.rs/photos/venues/575/c-1523627286.jpg",
      "name":"Topčiderski park",
      "description":"Naširoko poznat kao “Central park Beograda” ovo je jedna od najvećih i najlepših zelenih oblasti u Beogradu. Iako je manje od 15-tak minuta udaljena od centra grada, ipak je ovo mirna oblast sa dosta prilika za razonodu i opuštanje kao što su vožnja bicikla, rolera,..."
    }
-   
 ]

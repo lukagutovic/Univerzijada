@@ -21,20 +21,20 @@
   ],
   "games": [
     {
-      "name": "Milos",
-      "id": 9
+      "name": "dfs",
+      "id": 1
     },
     {
-      "datum": "20.05.2020",
-      "id": 10
+      "datum": "2020-07-08",
+      "id": 2
     },
     {
-      "vreme": "10:20h",
-      "id": 11
+      "vreme": "20:54",
+      "id": 3
     },
     {
-      "hala": "Hala sportova Vlade Divac",
-      "id": 12
+      "hala": "fdfd",
+      "id": 4
     }
   ]
 }

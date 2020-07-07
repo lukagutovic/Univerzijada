@@ -17,8 +17,12 @@ import RouteWithProps from './components/router/RouteWithProps'
 import * as authentication from './services/authentication'
 import '../node_modules/picnic/picnic.min.css'
 import './App.css'
-// import TuristickiSadrzaj from './components/TuristickiSadrzaj/TuristickiSadrzaj'
-import Kalemegdan from './components/Znamenitosti/Kalemegdan'
+import Znamenitost from './components/about/Znamenitosti/Znamenitost'
+import Kalemegdan from './components/about/Znamenitosti/Kalemegdan'
+import Ada from './components/about/Znamenitosti/Ada'
+import Svpetka from './components/about/Znamenitosti/Svpetka'
+import Topcider from './components/about/Znamenitosti/Topcider'
+
 
 class App extends React.Component {
   constructor () {
@@ -83,12 +87,15 @@ class App extends React.Component {
             <Switch>
               <Route path='/' exact component={HomePage} />
               <Route exact path='/about' component={AboutPage} />
-              {/* <Route path='/turistickisadrzaj' component={TuristickiSadrzaj} /> */}
               <RouteWithProps path='/login' component={LoginPage} props={{ login: this.login }} />
               <RouteWithProps path='/notloggedin' component={LoginPage} props={{ login: this.login }} />
               <PrivateRoute path='/utakmice' component={GamesPage} />
+              <Route path='/znamenitost' exact component={Znamenitost} />
+              <Route path='/kalemegdan' exact component={Kalemegdan} />
+              <Route path='/svpetka' exact component={Svpetka} />
+              <Route path='/ada' exact component={Ada} />
+              <Route path='/topcider' exact component={Topcider} />
               <Route component={NotFoundPage} />
-              <Route path='/kalemegdan' component={Kalemegdan} />
 
             </Switch>
           </div>

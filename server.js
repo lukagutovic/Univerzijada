@@ -49,7 +49,7 @@ server.use((req, res, next) => {
   let userHasPermission = true
   if (req.method === 'POST' || req.method === 'DELETE') {
     // Only admin can add or delete games
-    if (req.path === '/games' && req.user.role !== 'admin') {
+    if (req.path === '/utakmice' && req.user.role !== 'admin') {
       userHasPermission = false
     }
   }

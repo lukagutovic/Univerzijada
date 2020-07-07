@@ -14,7 +14,28 @@ class AddGameForm extends Component {
     this.onInputChange = this.onInputChange.bind(this)
     this.handleSubmit = this.handleSubmit.bind(this)
   }
+// validacija
 
+
+contactSubmit(e){
+  e.preventDefault();
+
+  if(this.handleValidation()){
+     alert("Form submitted");
+  }else{
+     alert("Form has errors.")
+  }
+
+}
+
+handleChange(field, e){         
+  let fields = this.state.fields;
+  fields[field] = e.target.value;        
+  this.setState({fields});
+}
+
+
+// validacija kraj
   onInputChange (event) {
     const fields = this.state.fields
     fields[event.target.name] = event.target.value

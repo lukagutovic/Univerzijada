@@ -12,7 +12,7 @@ const TopBar = ({logout}, context) => (
       <input id='bmenug' type='checkbox' className='show' />
       <label htmlFor='bmenug' className='burger pseudo button'>&#8801;</label>
 
-      <div className='menu'>
+      <div className='menu'>  
         <Link className='pseudo button' to='/'>Početna</Link>
         <Link className='pseudo button' to='/about'>Turistički Sadržaj</Link>
         {/* <Link className='pseudo button' to='/turistickisadrzaj'>Turisticki Sadrzaj</Link> */}
