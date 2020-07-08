@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import Game from './Game'
 
 const GameList = ({games, onDelete, userCanEditGames}) => (
+
   <ul className="ul-wrapper" id="ul-id-wrapper"> 
     {games.map((game) => (
       <Game key={game.id} game={game} onDelete={onDelete} userCanEditGames={userCanEditGames} />

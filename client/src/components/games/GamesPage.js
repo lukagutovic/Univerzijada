@@ -27,10 +27,11 @@ class GamesPage extends Component {
   }
 
   getGames () {
-    gameApi.getGames().then((games) =>
+    gameApi.getGames().then((games) => {
       this.setState({
-        games: games
+        games: games.game
       })
+    }
     )
   }
 

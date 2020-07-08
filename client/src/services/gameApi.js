@@ -1,6 +1,6 @@
 import { getHttp, postHttp, patchHttp, deleteHttp } from '../helpers/http'
 
-export const getGames = () => {
+export const  getGames = async () => {
   return getHttp('/games')
 }
 

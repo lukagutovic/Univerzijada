@@ -1,27 +1,12 @@
 import React from 'react'
-import PropTypes from 'prop-types'
+// import PropTypes from 'prop-types'
+// import Tabela from '../about/Znamenitosti/Komponente/Tabela'
 
-const Game = ({game, onDelete, userCanEditGames}) => (  
+const Game = () => (  
   <div>
-    <li>
-      <div >
-        <label className="prvi-input">{game.name}</label>
-        <label>{game.datum}</label>
-        <label>{game.vreme}</label>
-        <label>{game.hala}</label>
-        {
-          userCanEditGames &&
-          <button className='delete button' onClick={() => onDelete(game)}>Delete</button>
-        }
-      </div>
-    </li>
+    {/* <Tabela /> */}
   </div>
 )
 
-Game.propTypes = {
-  game: PropTypes.object.isRequired,
-  onDelete: PropTypes.func,
-  userCanEditGames: PropTypes.bool
-}
 
 export default Game

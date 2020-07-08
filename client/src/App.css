@@ -91,29 +91,9 @@ background: linear-gradient(to left, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/
   background: linear-gradient(to top, #dd1818, #333333); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.ul-wrapper{
-  margin: auto;
-  width: 60%;
-  /* border: 3px solid #73AD21; */
-  padding: 10px;
-  background: #8E2DE2;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to top, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to top, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-    padding: 5%;
-    border-radius: 10px;
-    color: #ffff;
-transition: 1.3s;
-
-}
-.ul-wrapper:hover{
-  background: #8E2DE2;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to bottom, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to bottom, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
 .form-wrapper{
   margin: auto;
-  width: 60%;
+  width: 80%;
   padding: 10px;
 }
 
@@ -334,3 +314,19 @@ h1 {
 }
 
 /* blog text ends */
+
+
+/* table style */
+.MuiIcon-root{
+  width: 100px !important;
+  height: 30px !important;
+  font-size: 16px !important;
+}
+.MuiIconButton-colorInherit{
+  width: 200px !important;
+}
+.MuiTableSortLabel-icon{
+  display: none !important;
+}
+
+/* table style ends */
